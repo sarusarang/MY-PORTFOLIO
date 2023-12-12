@@ -72,6 +72,12 @@ html {
 
 /* hero  */
 
+/* .hero-img{
+  background-image: url('./IMG/logo.png');
+  background-repeat: no-repeat;
+  background-size: 61rem;
+  background-position: center;
+} */
 
 
 .my-tittle {
@@ -292,7 +298,7 @@ html {
   }
 
   .my-img {
-    width: 48%;
+    width: 50%;
     margin-top: 10px;
   }
 
@@ -430,7 +436,7 @@ html {
   }
 
   .my-img {
-    width: 40%;
+    width: 54%;
     margin-top: 15px;
   }
 
