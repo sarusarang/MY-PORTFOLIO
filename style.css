@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 100vh;
+
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+
+/* navbar */
+
+.nav-text-style {
+  text-decoration: none;
+  color: #bbb;
+  font-weight: 700;
+  font-size: large;
+  margin-right: 20px;
+  transition: border ease-in 0.9s;
+  position: relative;
+
+}
+
+
+.nav-text-style::after {
+  content: '';
+  width: 0%;
+  height: 4px;
+  background-color: #ff004f;
+  position: absolute;
+  left: 0;
+  top: 21px;
+  transition: 0.5s;
+}
+
+.nav-text-style:hover::after {
+
+  width: 100%;
+}
+
+.nav-text-style:hover {
+  color: #fff;
+
+}
+
+.off-bg {
+  background-color: #131921;
+}
+
+.menu-style {
+  color: #ff004f;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.x-btn {
+  background-color: #fff;
+}
+
+
+
+
+
+/* hero  */
+
+
+
+.my-tittle {
+
+  padding-top: 100px;
+  padding-left: 150px;
+  width: 50%;
+
+}
+
+.tittle-h2 {
+  color: #767676;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.tittle-h1 {
+  color: #fff;
+
+}
+
+.span-head {
+  color: #ff004f;
+}
+
+.tittle-p {
+  color: #fff;
+  font-size: large;
+}
+
+.download {
+  color: #fff;
+  font-weight: 500;
+  background-color: #000;
+  text-decoration: none;
+  border: 1px solid #ff004f;
+  border-radius: 28px;
+  width: 170px;
+  height: 52px;
+  transition: background ease-out 0.7s;
+}
+
+.download:hover {
+  background-color: #ff004f;
+  color: #fff;
+}
+
+
+/* about section */
+
+.text-aboutme {
+  color: #fff;
+  font-weight: 900;
+  width: 50%;
+  margin-left: 40px;
+}
+
+.about-h1 {
+  font-size: 600;
+}
+
+.text-aboutme p {
+  color: #767676;
+}
+
+.card-bg {
+  background-color: #000;
+  /* border-radius: 18px; */
+  width: 50%;
+}
+
+.card-width{
+  width: 23rem;
+  height: 23rem;
+}
+
+.card-border{
+  border: 1px solid #313031;
+ 
+}
+
+
+.modal-bg {
+  background-color: #131921;
+}
+
+.modal-btn {
+  width: 140px;
+  height: 45px;
+  border: 1px solid #ff004f;
+  border-radius: 22px;
+  background-color: #000;
+  color: #bbb;
+  font-size: medium;
+  font-weight: 500;
+  transition: background ease-out 0.8s;
+}
+
+.modal-btn:hover {
+  background-color: #ff004f;
+  color: #fff;
+}
+
+.modal-h1 {
+  color: #ff004f;
+  font-weight: 900;
+}
+
+.modal-p {
+  color: #767676;
+}
+
+.span-about {
+  color: #ff004f;
+  font-size: larger;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+
+
+/* resposive for mobile device */
+
+@media only screen and (max-width: 481px) {
+
+  /* hero and nav */
+
+  .tittle-h1 {
+    font-size: 10px;
+  }
+
+  .tittle-p {
+    font-size: xx-small;
+  }
+
+  .my-tittle {
+    padding-top: 24px;
+    padding-left: 40px;
+  }
+
+  .download {
+    width: 80px;
+    height: 28px;
+    font-size: xx-small;
+  }
+
+  .my-img {
+    width: 50%;
+
+  }
+
+  .tittle-h2 {
+    font-size: xx-small;
+  }
+
+
+  /* about */
+
+
+  .card-width{
+    width: 10rem;
+    height: 10rem;
+  }
+  
+
+  .text-aboutme {
+
+    font-size: 8px;
+
+  }
+
+  .modal-btn {
+
+    width: 100px;
+    height: 25px;
+    font-size: x-small;
+  }
+
+  .modal-section {
+    justify-content: right;
+  }
+
+  .about-h1 {
+    font-size: large;
+  }
+
+  .span-about {
+    font-size: small;
+    font-weight: 500;
+  }
+
+}
+
+/* resposive for i pad and tab */
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+
+
+  /* nav and hero */
+  .tittle-h1 {
+    font-size: 20px;
+  }
+
+  .tittle-p {
+    font-size: xx-small;
+  }
+
+  .my-tittle {
+    padding-top: 60px;
+    padding-left: 60px;
+  }
+
+  .download {
+    width: 90px;
+    height: 30px;
+    font-size: xx-small;
+  }
+
+  .my-img {
+    width: 48%;
+    margin-top: 10px;
+  }
+
+  .tittle-h2 {
+    font-size: small;
+  }
+
+
+  /* about */
+
+
+  .card-width{
+    width: 13rem;
+    height: 13rem;
+  }
+
+  .text-aboutme {
+
+    font-size: 10px;
+
+  }
+
+  
+  .about-h1 {
+    font-size: x-large;
+  }
+
+  .span-about {
+    font-size: large;
+    font-weight: 600;
+  }
+
+  .modal-btn {
+    width: 120px;
+    height: 35px;
+    font-size: small
+  }
+
+ 
+
+
+
+}
+
+/* responsive for i pad and tabs */
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+  .tittle-h1 {
+    font-size: 25px;
+  }
+
+  .tittle-p {
+    font-size: x-small;
+  }
+
+  .my-tittle {
+    padding-top: 60px;
+    padding-left: 60px;
+  }
+
+  .download {
+    width: 100px;
+    height: 35px;
+    font-size: xx-small;
+  }
+
+  .my-img {
+    width: 48%;
+    margin-top: 10px;
+
+  }
+
+  .tittle-h2 {
+    font-size: smaller;
+  }
+
+
+  /* about */
+
+
+  .card-width{
+    width: 16rem;
+    height: 16rem;
+  }
+
+  .text-aboutme {
+
+    font-size: 12px;
+
+  }
+
+  
+  .about-h1 {
+    font-size: xx-large;
+  }
+
+  .span-about {
+    font-size: x-large;
+    font-weight: 600;
+  }
+
+  .modal-btn {
+    width: 155px;
+    height: 44px;
+    font-size: large;
+  }
+
+
+
+
+}
+
+/* responsive for desktop and laptops */
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+  .tittle-h1 {
+    font-size: 30px;
+  }
+
+  .tittle-p {
+    font-size: small;
+  }
+
+  .my-tittle {
+    padding-top: 80px;
+    padding-left: 80px;
+  }
+
+  .download {
+    width: 105px;
+    height: 44px;
+    font-size: small;
+  }
+
+  .my-img {
+    width: 40%;
+    margin-top: 15px;
+  }
+
+  .tittle-h2 {
+    font-size: medium;
+  }
+
+
+  .card-width{
+    width: 23rem;
+    height: 23rem;
+  }
+
+
+
+}
+
+/* responsive for higher devices */
+
+@media only screen and (min-width: 1200px) {
+
+  .my-img {
+    margin-top: 10px;
+  }
+
+  .tittle-h2 {
+    font-size: larger;
+  }
+
+
+}
