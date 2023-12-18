@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+
+
 body {
   margin: 0;
   padding: 0;
@@ -16,7 +18,6 @@ html {
 
 }
 
-.fade-in {}
 
 
 /* navbar */
@@ -114,12 +115,17 @@ html {
   width: 170px;
   height: 52px;
   transition: background ease-out 0.7s;
+  animation: wiggle 2s linear infinite;
 }
 
 .download:hover {
   background-color: #ff004f;
   color: #fff;
 }
+
+
+
+
 
 
 /* about section */
@@ -141,7 +147,6 @@ html {
 
 .card-bg {
   background-color: #000;
-  /* border-radius: 18px; */
   width: 50%;
 }
 
@@ -194,6 +199,9 @@ html {
 }
 
 
+
+
+
 /* my-service */
 
 .service {
@@ -228,15 +236,109 @@ html {
   color: #506F86;
 }
 
+
+
+
+
 /* skills */
 
-.skills{
-  margin-top: 4rem;
+.skills {
+  margin-top: 8rem;
 }
 
-.skills-h1{
-  color: #fff;
+.skills-h1 {
+  color: #08a1ee;
+  font-weight: 900;
 }
+
+.skills-inner {
+  width: 100%;
+  height: 100%;
+
+}
+
+.inner-head {
+  color: #ef1040;
+}
+
+.skills-head {
+  font-size: x-large;
+  color: #e34c26;
+}
+
+
+
+
+
+/* animations */
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+
 
 /* resposive for mobile device */
 
@@ -310,7 +412,7 @@ html {
 
 
   /* my-service */
-  
+
 }
 
 /* resposive for i pad and tab */
