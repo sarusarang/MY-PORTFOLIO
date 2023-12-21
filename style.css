@@ -267,6 +267,15 @@ html {
 }
 
 
+.tools-logo {
+  font-size: 120px;
+}
+
+.tools-h {
+  text-align: center;
+  font-size: xx-large;
+}
+
 
 
 
@@ -411,7 +420,17 @@ html {
   }
 
 
-  /* my-service */
+  /*skills*/
+
+
+  .tools-logo {
+    font-size: 60px;
+  }
+  
+  .tools-h {
+    text-align: center;
+    font-size: larger;
+  }
 
 }
 
@@ -480,7 +499,16 @@ html {
     font-size: small
   }
 
+ /* skills */
 
+ .tools-logo {
+  font-size: 80px;
+}
+
+.tools-h {
+  text-align: center;
+  font-size: larger;
+}
 
 
 
@@ -551,7 +579,17 @@ html {
   }
 
 
+   /* skills */
 
+   .tools-logo {
+    font-size: 80px;
+  }
+  
+  .tools-h {
+    text-align: center;
+    font-size: larger;
+  }
+  
 
 }
 
@@ -593,6 +631,16 @@ html {
     height: 23rem;
   }
 
+     /* skills */
+
+     .tools-logo {
+      font-size: 80px;
+    }
+    
+    .tools-h {
+      text-align: center;
+      font-size: larger;
+    }
 
 
 }
