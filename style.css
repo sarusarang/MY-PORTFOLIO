@@ -18,6 +18,32 @@ html {
 
 }
 
+/* button to top */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 40px;
+  border: 1px solid #fff;
+  width: 60px;
+  transition: background ease-out 0.6s;
+}
+
+#myBtn:hover {
+  background-color: #DC143C;
+  border: none;
+}
+
 
 
 /* navbar */
@@ -57,6 +83,7 @@ html {
 
 .off-bg {
   background-color: #131921;
+  opacity: 0.8;
 }
 
 .menu-style {
@@ -277,7 +304,51 @@ html {
 }
 
 
+/* PROJECT */
 
+.project{
+  background-color: black;
+}
+
+.project-card{
+
+  border: 1px solid;
+  border-radius: 0px;
+
+ 
+}
+
+.project-body{
+  background-color: #000;
+  color: #bbb;
+  transition: background ease-in 0.6s;
+}
+
+.project-span{
+  color: #506F86;
+}
+
+.head-span{
+  color: #DC143C;
+}
+
+.project-body:hover{
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  color: #fff;
+}
+
+.project-main{
+  margin-top: 30px;
+  transition: margin-top ease-out 0.5s;
+}
+
+.project-main:hover{
+  margin-top: -5px;
+}
+
+.project-body a{
+  text-decoration: none;
+}
 
 /* animations */
 .reveal{
