@@ -791,6 +791,7 @@
 
         </section>
 
+        <!-- contact -->
 
         <section id="contact">
 
@@ -811,26 +812,32 @@
 
 
 
-                        <form action="">
+                        <form method="post"
+                            action="https://script.google.com/macros/s/AKfycbxl887swwxFlqn9aATgLZCGlzmlbpWN4vJHNOx_KkUXAJEiBGiJksK5ZJrDGsWqBlPV/exec">
 
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label text-style">NAME</label>
-                                <input type="text" autocomplete="off" style="color: #563d7c;" class="form-control border border-secondary"
-                                    id="exampleFormControlInput1" placeholder="Enter your Name">
+
+                                <input name="Name" type="text" autocomplete="off" style="color: #563d7c;"
+                                    class="form-control border border-secondary" id="exampleFormControlInput1"
+                                    placeholder="Enter your Name">
+
                             </div>
 
 
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label text-style">EMAIL
                                     ADDRESS</label>
-                                <input type="email" autocomplete="off" style="color: #563d7c;" class="form-control border border-secondary"
-                                    id="exampleFormControlInput1" placeholder="Enter your Email">
+                                <input name="Email" type="email" autocomplete="off" style="color: #563d7c;"
+                                    class="form-control border border-secondary" id="exampleFormControlInput1"
+                                    placeholder="Enter your Email">
                             </div>
 
 
                             <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" autocomplete="off" class="form-label text-style">COMMENT</label>
-                                <textarea class="form-control contact-hover" style="color: #563d7c;"
+                                <label for="exampleFormControlTextarea1" autocomplete="off"
+                                    class="form-label text-style">COMMENT</label>
+                                <textarea name="Comment" class="form-control contact-hover" style="color: #563d7c;"
                                     placeholder="Type Here....." id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
 
