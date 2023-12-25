@@ -350,6 +350,34 @@ html {
   text-decoration: none;
 }
 
+
+
+/* Contact */
+
+.contact-color{
+  color: #DC143C;
+}
+
+.text-style{
+  color: #bbb;
+}
+
+.my-btn{
+  width: 135px;
+  height: 45px;
+  border-radius: 22px;
+  font-size: larger;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #767676;
+  transition: background ease-out 0.5s;
+}
+
+.my-btn:hover{
+  background-color: #DC143C;
+  border: none;
+}
 /* animations */
 .reveal{
   position: relative;
