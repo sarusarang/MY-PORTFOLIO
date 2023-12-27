@@ -395,12 +395,12 @@ html {
   font-size: xx-large;
   margin-right: 15px;
   margin-top: 5px;
-  color: #313031;
+  color: #767676;
   transition: color ease-out 0.2s;
 }
 
 .social-logo:hover{
-  color: #767676;
+  color: #fff;
 }
 
 .copyright a{
@@ -424,7 +424,7 @@ html {
 
 .email-phone a{
   text-decoration: none;
-  color: #313031;
+  color: #767676;
   font-size: large;
 }
 
